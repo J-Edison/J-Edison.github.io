@@ -1,0 +1,45 @@
+body {
+    font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #e6f8ff;
+}
+h1{
+    color: #f8ecec;
+    background-color: #609469;
+    text-transform: uppercase;
+    font-size: larger;
+    margin: 1.5rem;
+   padding: 1.3rem;
+}
+h2{
+    font-size: medium;
+}
+h3{
+    color: #f8ecec;
+    background-color: #609469;
+}
+img{
+    color: beige;
+    float: right;
+    border: 2px #ffffff solid;/** controls border width, color, line style **/;
+    margin: .65rem;
+    max-width: 100%;
+}
+figure {
+    border: solid darkolivegreen 2px;
+}
+figcaption {
+background-color: beige;
+padding: 1rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+hr{
+    border-style: solid;
+    border-width: thick;
+    border-color: #FFFFFF #FFFFFF #59B701 #FFFFFF;
+    background: #181818;
+}
