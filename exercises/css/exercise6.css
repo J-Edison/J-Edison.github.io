@@ -40,4 +40,6 @@ img {color: #4F4F4F;
     border: 2px #ffffff solid;/** controls border width, color, line style **/;
     margin: .65rem;
     max-width: 100%;
+      height: auto;
+    width: auto\9; 
 }
