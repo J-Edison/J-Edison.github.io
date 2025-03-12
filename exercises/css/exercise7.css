@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(208, 244, 244);
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: right;
+}
+main{
+    border: 0px;
+}
+.wrapper{
+    border: 0px;
+    margin: 0 auto;
+    max-width: 40rem;
+}
+article{
+    border: 1px navy solid;
+    background-color: rgb(249, 240, 227);
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .3rem;
+    filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40))
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+h1{
+    text-align:center;
+    margin-top: 4.5rem;
+    margin-bottom: 2.5rem;
+}
+h2.logo{
+    background-color: aquamarine;
+    text-align: left;
+    width: 6rem;
+    height: 6rem;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+}
+/* Link styling */
+a:visited{
+    color:rgb(81, 45, 114) 
+}
+a:hover{
+    color:rgb(39, 182, 23) 
+}
+a:active{
+    color:rgb(0, 0, 155)
+}
+/* Link styling - header */
+header a:link{
+    color:white;
+    text-decoration: none;
+}
+header a:visited{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(252, 129, 166);
+    text-decoration: none;
+}
+header a:active{
+    color: rgb(255, 183, 0);
+    text-decoration: none;
+}
