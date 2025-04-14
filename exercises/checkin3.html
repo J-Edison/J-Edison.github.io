@@ -12,13 +12,20 @@
       height: 100%;
     }
 
-    .middle-row,
+    .middle-row{
+        display: flex;
+      justify-content: stretch;
+      width: 100%;
+      height: 300px;
+      background-color:rgb(224, 193, 253);
+    }
     .bottom-row {
       border: 0.5px solid black;
       display: flex;
       justify-content: stretch;
       width: 100%;
       height: 300px;
+      background-color: rgb(217, 235, 250);
     }
 
     .row-item {
@@ -26,14 +33,14 @@
       justify-content: center;
       text-align: center;
       border: 1px solid black;
-      overflow: hidden; /* ensures image doesn't overflow its box */
+      overflow: hidden; 
     }
 
     /* This applies to all images */
     .row-item img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* fill the container while maintaining aspect ratio */
+      object-fit: cover; 
       display: block;
     }
   </style>
@@ -49,7 +56,7 @@
         <p>An Introduction to Web Design</p>
       </div>
       <div class="row-item">
-        <img src="../images/gotg.jpg" alt="Guardians of the Galaxy">
+        <img src="../images/gotg.jpg" alt="Garden of the Gods">
       </div>
     </div>
 
@@ -59,7 +66,7 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab amet natus eius explicabo suscipit incidunt corporis obcaecati...</p>
       </div>
       <div class="row-item">
-        <img src="../images/haiyaha.jpg" alt="Haiyaha">
+        <img src="../images/haiyaha.jpg" alt="Lake Haiyaha">
       </div>
       <div class="row-item">
         <p>About the Author</p>
