@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in #3</title>
+</head>
+<body>
+    <style>
+        .big-box {
+            border: 0.5px solid black;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .middle-row {
+            border: 0.5px solid black;
+            display: flex;
+            justify-content: stretch;
+            width: 100%;
+            height: 300px;
+        }
+        .bottom-row {
+            border: 0.5px solid black;
+            display: flex;
+            justify-content: stretch;
+            width: 100%;
+            height: 300px;
+        }
+        .row-item {
+            flex: 1;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .container img{
+            height: 100%;
+            width: 100%;
+        }
+
+
+    </style>
+    </style>
+    <div class="big-box">
+        <div class="row-item" id="title-box">
+            <p>Engl 391</p>
+        </div> 
+        <div class="middle-row">
+            <div class="row-item" style="flex:1">
+                <p>An Introduction to Web Design</p>
+            </div>
+            <div class="row-item">
+                <img src="gotg.jpg">
+            </div>
+        </div>
+        <div class="bottom-row">
+            <div class="row-item">
+                <p>Welcome to My Website</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab amet natus eius explicabo suscipit incidunt corporis obcaecati. Voluptates temporibus similique, alias vel neque nobis, odit aut officiis reprehenderit dolorem sed?</p>
+            </div>
+            <div class="row-item">
+                <img src="haiyaha.jpg">
+            </div>
+            <div class="row-item">
+                <p>About the Author</p>
+                <img src="jane-paris.jpeg" style="float:left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus error, itaque voluptas est quam aut natus ut voluptatum quae beatae maxime ipsa, iste repudiandae consectetur rem sequi velit ullam accusamus!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
