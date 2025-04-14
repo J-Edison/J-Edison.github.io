@@ -1,77 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check-in #3</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Check-in #3</title>
+  <style>
+    .big-box {
+      border: 0.5px solid black;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .middle-row,
+    .bottom-row {
+      border: 0.5px solid black;
+      display: flex;
+      justify-content: stretch;
+      width: 100%;
+      height: 300px;
+    }
+
+    .row-item {
+      flex: 1;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid black;
+      overflow: hidden; /* ensures image doesn't overflow its box */
+    }
+
+    /* This applies to all images */
+    .row-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* fill the container while maintaining aspect ratio */
+      display: block;
+    }
+  </style>
 </head>
 <body>
-    <style>
-        .big-box {
-            border: 0.5px solid black;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-        .middle-row {
-            border: 0.5px solid black;
-            display: flex;
-            justify-content: stretch;
-            width: 100%;
-            height: 300px;
-        }
-        .bottom-row {
-            border: 0.5px solid black;
-            display: flex;
-            justify-content: stretch;
-            width: 100%;
-            height: 300px;
-        }
-        .row-item {
-            flex: 1;
-            justify-content: center;
-            text-align: center;
-            border: 1px solid black;
-        }
-        .container img{
-            height: 300px;
-            width: 100%;
-        }
-        .box2 img{
-            object-fit: cover;
-            width: 322px;
-            height 241.5px; 
-
-
-    </style>
-    </style>
-    <div class="big-box">
-        <div class="row-item" id="title-box">
-            <p>Engl 391</p>
-        </div> 
-        <div class="middle-row">
-            <div class="row-item" style="flex:1">
-                <p>An Introduction to Web Design</p>
-            </div>
-            <div class="row-item">
-                <img src="../images/gotg.jpg">
-            </div>
-        </div>
-        <div class="bottom-row">
-            <div class="row-item">
-                <p>Welcome to My Website</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab amet natus eius explicabo suscipit incidunt corporis obcaecati. Voluptates temporibus similique, alias vel neque nobis, odit aut officiis reprehenderit dolorem sed?</p>
-            </div>
-            <div class="row-item">
-                <img src="../images/haiyaha.jpg">
-            </div>
-            <div class="row-item">
-                <p>About the Author</p>
-                <img src="../images/jane-paris.jpeg" style="float:left">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus error, itaque voluptas est quam aut natus ut voluptatum quae beatae maxime ipsa, iste repudiandae consectetur rem sequi velit ullam accusamus!</p>
-            </div>
-        </div>
+  <div class="big-box">
+    <div class="row-item" id="title-box">
+      <p>Engl 391</p>
     </div>
+
+    <div class="middle-row">
+      <div class="row-item" style="flex:1">
+        <p>An Introduction to Web Design</p>
+      </div>
+      <div class="row-item">
+        <img src="../images/gotg.jpg" alt="Guardians of the Galaxy">
+      </div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="row-item">
+        <p>Welcome to My Website</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab amet natus eius explicabo suscipit incidunt corporis obcaecati...</p>
+      </div>
+      <div class="row-item">
+        <img src="../images/haiyaha.jpg" alt="Haiyaha">
+      </div>
+      <div class="row-item">
+        <p>About the Author</p>
+        <img src="../images/jane-paris.jpeg" alt="Author photo" style="float:left; width: 40%; height: auto; margin-right: 10px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus error, itaque voluptas est quam aut natus ut voluptatum...</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
