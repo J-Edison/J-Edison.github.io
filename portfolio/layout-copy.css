@@ -71,6 +71,51 @@ h1{
     border: 1px solid black;
     overflow: hidden; 
   }
-object{
+  object{
     justify-content: center;
+  }
+
+  .og-image {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .og-content {
+    padding: 12px;
+    background-color: #fff;
+  }
+  
+  .og-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .og-url {
+    color: #555;
+    font-size: 14px;
+  }
+  .og-preview{
+    display: flex;
+    justify-content: center;
+    width:auto;
+    height: auto;
+    font-family: Arial, sans-serif;
+  }
+.wrapper{
+    border: 0px;
+    margin: 0 auto;
+    max-width: 60rem;
+}
+article{
+    border: #223030 solid;
+    background-color: rgb(249, 240, 227);
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .3rem;
+    filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40));
+    width: 10rem;
+    display: inline-block;
 }
