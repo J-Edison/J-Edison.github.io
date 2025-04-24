@@ -1,33 +1,57 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head><meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English 391C HTML and CSS Exercises</title>
-    <link rel="stylesheet" href="layout-copy.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draft Layout</title>
+    <link href="layout-copy.css" rel="stylesheet">
 </head>
-        <title>HTML Exercises</title>
-        <main>
-        <body>
-            <header>
-                <nav>
-                    <h2>Jane Edison</h2>
-                      <ul>
-                          <li><a href="layout-copy.html">Home</a></li>
-                          <li><a href="index-copy.html">Exercises</a>
-                          <li><a href="res-page.html">Resume</a></li>
-                          <li><a href="samples.html">Portfolios</a></li>
-                          <li><a href="#">Contact Me!</a></li>
-                      </ul>
-                  </nav>
-            </header>
-            <h2>HTML Exercises</h2>
-            <article>Exercise #1 - <a href ="../exercises/exercise1.html">About Me!</a></article>
-            <article>Exercise #2 - <a href ="../exercises/exercise2.html">Resume</a></article>
-            <article>Exercise Page (current page)</article>
-            <article>Exercise #5 - <a href ="../exercises/exercise5.html">CSS Color Exercise</a> <a href ="../exercises/exercise5-resume.html">Color Exercise with Resume</a></article>
-            <article>Exercise #7 - <a href ="../exercises/exercise7-position.html">CSS Box Model</a></article>
-            <article>Exercise #8 - <a href ="../exercises/exercise8.html">Grid Layout</article>
-            <article>Exercise #9 - <a href ="../exercises/exercise9.html">Grid Layout pt.2</article>
-        </main>
+<body>
+    <header>
+        <nav>
+          <h2>Jane Edison</h2>
+            <ul>
+                <li><a href="layout-copy.html">Home</a></li>
+                <li><a href="index-copy.html">Exercises</a>
+                <li><a href="res-page.html">Resume</a></li>
+                <li><a href="samples.html">Portfolios</a></li>
+                <li><a href="#">Contact Me!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to my website!</h1>
+        <p>Hello! I am a Third-year English major at <a href="https://www.umass.edu/">UMass Amherst.</a></p>
+        
+            <div class="middle-row">
+              <div class="row-item" style="flex:1">
+                <div class="og-preview">
+                  <a href="https://www.goodreads.com/review/show/7504669976" target="_blank" rel="noopener noreferrer">
+                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660145160l/61718053.jpg" alt="Book cover" class="og-image" />
+                  <div class="og-title">Check out my latest review on GoodReads!</div>
+                </div>
+              </div>
+              </div>
+              <div class="row-item">
+                <p>Piece 2 Link</p>
+              </div>
+            </div>
+        
+            <div class="bottom-row">
+              <div class="row-item">
+                <p>Featured Blog Post</p>
+              </div>
+              <div class="row-item">
+                <p>Image/Video of Interest</p>
+              </div>
+              <div class="row-item">
+                <p>About the Author/Link to About Me/Post </p>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <address>Contact me at jedison@umass.edu</address>
+    </footer>
 </body>
 </html>
