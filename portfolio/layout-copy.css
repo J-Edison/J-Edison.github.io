@@ -119,3 +119,24 @@ article{
     width: 10rem;
     display: inline-block;
 }
+.home-bio{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #223030;
+    margin: 5px;
+    text-align: justify;
+    background-color:#c0cbb9;
+}
+.home-bio img{
+  height: 100%;
+  width: 100%;
+}
+img.pfp{
+max-height: 20%;
+max-width: 20%;
+float:left;
+margin: 5px;
+object-fit: cover;
+}
+
