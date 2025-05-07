@@ -131,6 +131,7 @@ article{
 .home-bio img{
   height: 100%;
   width: 100%;
+    object-fit: cover;
 }
 img.pfp{
 max-height: 20%;
