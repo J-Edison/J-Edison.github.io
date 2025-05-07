@@ -127,6 +127,7 @@ article{
     margin: 5px;
     text-align: justify;
     background-color:#c0cbb9;
+    object-fit: cover;
 }
 .home-bio img{
   height: 100%;
