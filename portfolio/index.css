@@ -103,21 +103,26 @@ h1{
     height: auto;
     font-family: Arial, sans-serif;
   }
-.wrapper{
-    border: 0px;
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
     margin: 0 auto;
-    max-width: 60rem;
+    max-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
 }
-article{
+
+article {
+    flex: 1 1 300px; /* Flexible width, min 300px */
+    box-sizing: border-box;
     border: #223030 solid;
     background-color: rgb(249, 240, 227);
     padding: 1.3rem;
     margin: .5rem;
-    margin-bottom: 1.5rem;
     border-radius: .3rem;
     filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40));
-    width: 10rem;
-    display: inline-block;
 }
 .home-bio {
     padding: 10px;
