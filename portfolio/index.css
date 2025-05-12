@@ -121,17 +121,25 @@ article {
     filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40));
 }
 .home-bio {
-    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
     border: 2px solid #223030;
-    margin: 5px;
-    text-align: right;
     background-color: #c0cbb9;
+    margin: 1rem;
 }
 
 img.pfp {
-    max-width: 20%;
-    float: center;
-    margin: 5px;
+    width: 150px;      
+    height: auto;
     object-fit: cover;
+    border-radius: 50%; 
+    flex-shrink: 0;     
+}
+
+.home-bio p {
+    margin: 0;
+    flex: 1;
 }
 
