@@ -130,7 +130,7 @@ article {
 
 img.pfp {
     max-width: 20%;
-    float: left;
+    float: center;
     margin: 5px;
     object-fit: cover;
 }
