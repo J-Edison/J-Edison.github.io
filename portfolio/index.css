@@ -71,10 +71,6 @@ h1{
     border: 1px solid black;
     overflow: hidden; 
   }
-  object{
-    justify-content: center;
-  }
-
   .og-image {
     width: 120px;
     height: auto;
