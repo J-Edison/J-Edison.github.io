@@ -120,16 +120,22 @@ article {
     border-radius: .3rem;
     filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40));
 }
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 .home-bio {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 1rem;
-    border: 2px solid #223030;
-    background-color: #c0cbb9;
-    margin: 1rem;
-    max-width: 800px;
-    flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid #223030;
+  background-color: #c0cbb9;
+  margin: 1rem auto;
+  max-width: 800px;
+  flex-direction: row;
+  box-sizing: border-box;
 }
 
 img.pfp {
