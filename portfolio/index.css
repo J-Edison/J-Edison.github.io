@@ -128,18 +128,28 @@ article {
     border: 2px solid #223030;
     background-color: #c0cbb9;
     margin: 1rem;
+    max-width: 800px;
+    flex-direction: row;
 }
 
 img.pfp {
-    width: 150px;      
-    height: auto;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 50%; 
-    flex-shrink: 0;     
+    border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .home-bio p {
     margin: 0;
     flex: 1;
+    text-align: justify;
 }
+
+@media (max-width: 600px) {
+    .home-bio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
