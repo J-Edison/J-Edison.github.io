@@ -10,3 +10,5 @@ These principles are commonly summarized as POUR: Perceivable, Operable, Underst
 - **U**: “Understandable” refers both to the clarity of information and the predictability of the interface. If you are a writer or information designer, this principle speaks directly to your craft. Clear headings, plain language, consistent terminology, and logical structure all support comprehension.
 - **R**: “Robust means it should work reliably with a wide range of current and future technologies, including assistive technologies like screen readers.
 > More information can be found on their [website](https://www.w3.org/WAI/fundamentals/accessibility-principles/).
+
+![Four icons of an eye, hands typing on a keyboard, a brain, and computer screens with accompanying descriptions.](/images/pour.png "https://reetisarup.medium.com/web-a11y-wcags-4-principles-and-13-guidelines-for-web-accessibility-bfc14e8db429")
