@@ -4,7 +4,7 @@ The purpose of our **Accessibility/Flare** project for English 381 is to provide
 
 #### About Me ####
 I am a senior English major pursuing a certification in Professional Writing and Technical Communication through the English department. I am interested in any and all forms of writing and website development, as well as formal and professional communications. 
-! [A woman wearing a white sweater and curly brown hair smiling at the camera.](/images/DI1A8988.jpeg)
+![A woman wearing a white sweater and curly brown hair smiling at the camera.](/images/DI1A8988.jpeg)
 
 #### Tools and Concepts Used####
 Our first program that we are learning is **MadCap Flare**.
