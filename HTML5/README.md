@@ -3,7 +3,10 @@ The purpose of our **Accessibility/Flare** project for English 381 is to provide
 > Web accessibility, in short, is the quality of a website, technical feature, or media modality being usable and accommodating to any person of any level of capability.
 
 #### About Me ####
+I am a senior English major pursuing a certification in Professional Writing and Technical Communication through the English department. I am interested in any and all forms of writing and website development, as well as formal and professional communications. 
 
+
+#### Tools and Concepts Used####
 Our first program that we are learning is **MadCap Flare**.
 This is a *Help Authoring Tool (HAT)*. In using this tool, we are practicing the rules of web accessibility, which have a lot to do with the core principles as described by the World Wide Web Consortium (W3C).
 These principles are commonly summarized as POUR: Perceivable, Operable, Understandable, and Robust.
@@ -14,4 +17,6 @@ These principles are commonly summarized as POUR: Perceivable, Operable, Underst
 > More information can be found on their [website](https://www.w3.org/WAI/fundamentals/accessibility-principles/). :computer:
 
 ![Four icons of an eye, hands typing on a keyboard, a brain, and computer screens with accompanying descriptions.](/images/pour.png "https://reetisarup.medium.com/web-a11y-wcags-4-principles-and-13-guidelines-for-web-accessibility-bfc14e8db429")
+
+#### Process Description ####
 
