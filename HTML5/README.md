@@ -1,6 +1,8 @@
-### Accessibility / Flare Project ###
-The purpose of our **Accessibility/Flare** project for English 381 is to provide information on technological accessibility features and practices while learning new technologies and systems ourselves. This project centers around learning and understanding the practice and principles of *web accessibility*.
+## Accessibility / Flare Project ##
+The purpose of our **Accessibility/Flare** project for English 381 is to provide information on technological accessibility features and practices while learning new technologies and systems ourselves. This project centers around learning and understanding the practice and principles of *web accessibility*. My project involves the use of closed captioning, which I worked to create modules about with a small group in my class. 
 > Web accessibility, in short, is the quality of a website, technical feature, or media modality being usable and accommodating to any person of any level of capability.
+
+#### About Me ####
 
 Our first program that we are learning is **MadCap Flare**.
 This is a *Help Authoring Tool (HAT)*. In using this tool, we are practicing the rules of web accessibility, which have a lot to do with the core principles as described by the World Wide Web Consortium (W3C).
