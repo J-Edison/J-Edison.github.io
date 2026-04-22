@@ -119,6 +119,7 @@ article {
     margin: .5rem;
     border-radius: .3rem;
     filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40));
+    justify-content:center;
 }
 body {
   margin: 0;
