@@ -46,13 +46,12 @@ h1{
     display: flex;
     flex-direction: column;
     height: 100%;
-    max-width: 75%;
   }
 
   .middle-row{
       display: flex;
     justify-content: stretch;
-    width: 75%;
+    width: 100%;
     height: 300px;
     background-color: #959d90;
   }
@@ -60,7 +59,7 @@ h1{
     border: 0.5px solid black;
     display: flex;
     justify-content: stretch;
-    width: 75%;
+    width: 100%;
     height: 300px;
     background-color: #e8d9cd;
   }
@@ -112,6 +111,7 @@ h1{
 }
 
 article {
+    max-width: 75%;
     flex: 1 1 300px;/* Flexible width, min 300px */
     box-sizing: border-box;
     border: #223030 solid;
