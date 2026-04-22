@@ -105,13 +105,13 @@ h1{
     gap: 1rem;
     justify-content: center;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 75%;
     padding: 1rem;
     box-sizing: border-box;
 }
 
 article {
-    flex: 1 1 300px; /* Flexible width, min 300px */
+    flex: 1 1 300px;/* Flexible width, min 300px */
     box-sizing: border-box;
     border: #223030 solid;
     background-color: rgb(249, 240, 227);
@@ -119,7 +119,6 @@ article {
     margin: .5rem;
     border-radius: .3rem;
     filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40));
-    max-width: 600px;
 }
 body {
   margin: 0;
