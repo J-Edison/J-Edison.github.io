@@ -116,10 +116,9 @@ article {
     border: #223030 solid;
     background-color: rgb(249, 240, 227);
     padding: 1.3rem;
-    margin: .5rem;
+    margin: 1.0rem;
     border-radius: .3rem;
     filter: drop-shadow(.3rem .3rem .2rem rgb(45, 40, 40));
-    justify-content:center;
 }
 body {
   margin: 0;
