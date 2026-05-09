@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Accessibility Overview/A - What is Web Accessibility.htm'],s:['0'],p:[['0',4],['movie',0]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/1-Video-Transcripts/VT_1_definition.htm'],s:['+','mnit'],p:[['+',16],['captions',7],['font',14],['mind',17],['settings',13],['users',0]]});
