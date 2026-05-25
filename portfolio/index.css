@@ -134,7 +134,7 @@ body {
   background-color: #c0cbb9;
   margin: 1rem auto;
   max-width: 1000px;
-  flex-direction: column;
+  flex-direction: row;
   box-sizing: border-box;
 }
 
